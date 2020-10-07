@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Project from './Project';
+import Typed from 'react-typed';
 import './Projects.css';
 
 class Projects extends Component {
@@ -10,7 +11,7 @@ class Projects extends Component {
                 title: "Portfolio",
                 project: "Project 1",
                 text: "I used HTML, CSS, Bootstrap, javaScript - React.js",
-                href: "https://amanli-zahra.vercel.app/",
+                href: "https://amanli-zahra.vercel.app",
                 hrefG: "https://github.com/ZahraAmanli02/portfolio.git"
             },
             {
