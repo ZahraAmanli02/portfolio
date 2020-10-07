@@ -10,8 +10,8 @@ class Projects extends Component {
                 title: "Portfolio",
                 project: "Project 1",
                 text: "I used HTML, CSS, Bootstrap, javaScript - React.js",
-                href: "https://www.google.com",
-                hrefG: ""
+                href: "https://amanli-zahra.vercel.app/",
+                hrefG: "https://github.com/ZahraAmanli02/portfolio.git"
             },
             {
                 id: 2,
