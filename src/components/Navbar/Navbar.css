@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #660000;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+    color: #ffe6e6;
+    text-decoration: none;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: #ffe6e6;
+    text-decoration: none;
+}
+
+.navbar__item:hover,
+.navbar__item:active {
+    color: black;
+    transform: scale(1.20);
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out;
+}

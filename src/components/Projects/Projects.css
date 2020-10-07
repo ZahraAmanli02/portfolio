@@ -1,0 +1,43 @@
+.projects {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 11px;
+    position: relative;
+    font-size: 80%;
+    color: #660000;
+}
+
+.card {
+    width: 33%;
+    height: 250px;
+    background: #ffb3b3;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px;
+    overflow-x: hidden;
+}
+
+.projects__button {
+    margin-right: 70px;
+    width: 20%;
+    margin: 20px;
+    padding: 11px;
+    background-color: #660000;
+    border: 2px solid #ffe6e6;
+    color: #ffe6e6;
+}
+
+.projects__button:hover,
+.projects__button:active {
+    color: black;
+    transform: scale(1.20);
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    border-color: black;
+}

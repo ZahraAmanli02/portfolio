@@ -1,0 +1,44 @@
+.container {
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 100vw;
+    z-index: 1;
+    color: #660000;
+    font-size: 120%;
+}
+
+.image {
+    display: block;
+    margin: 20px auto;
+    width: 12%;
+    height: 12%;
+    border: 5px solid #660000;
+}
+.image:hover {
+    transform: scale(1.09);
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out;
+}
+
+.link_me {
+    text-decoration: none;
+    color: #660000;
+}
+
+.link_me:hover,
+.link_me:active {
+    color: #660000;
+    font-weight: bold;
+    transform: scale(1.09);
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out;
+}
+
+.home__text {
+    font-size: 150%;
+}
+
+
+
+  
